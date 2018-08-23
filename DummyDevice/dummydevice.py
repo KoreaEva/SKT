@@ -62,7 +62,7 @@ def iothub_client_sample_run():
         print("IoTHubClient waiting for commands, press Ctrl-C to exit")
 
         while True:
-            ####################################################                    ìˆ˜ì •ëœ ë¶€ë¶„
+            ####################################################                    ¼öÁ¤µÈ ºÎºĞ
             temperature = random.randrange(25, 32)
             humidity = random.randrange(60, 80)
             dust = 50 + temperature + random.randrange(1,5)
