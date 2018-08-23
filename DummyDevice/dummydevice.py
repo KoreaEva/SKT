@@ -26,7 +26,7 @@ protocol = IoTHubTransportProvider.AMQP
 # String containing Hostname, Device Id & Device Key in the format:
 # "HostName=<host_name>;DeviceId=<device_id>;SharedAccessKey=<device_key>"
 #connection_string = "HostName=winkeyiot.azure-devices.net;DeviceId=Device1;SharedAccessKeyName=device;SharedAccessKey=TimJbgVT1XtFm1h+5Ljym5yELlSSSS/xnPYqoxUs2wk="
-connection_string = "HostName={hostname];DeviceId={devlcie id};SharedAccessKeyName={key name};SharedAccessKey={access key}"
+connection_string = "HostName=SKTUdpHub.azure-devices.net;DeviceId=device1;SharedAccessKeyName=iothubowner;SharedAccessKey=ZVb0YBz1pw5KlcB8yZng04zndDuTie4NcZScddpLo8Y="
 msg_txt = "{\"DeviceID\":\"Device1\",\"Temperature\":%d,\"Humidity\":%d,\"Dust\":%d}"
 
 if __name__ == '__main__':
